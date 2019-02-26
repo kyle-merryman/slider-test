@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //import Header from './components/Header';
 import Nav from './components/Nav';
+import Header from './components/Header';
 //import logo from './logo.svg';
 import 'normalize.css/normalize.css';
 
@@ -11,6 +12,7 @@ class App extends Component {
   render() {
     return (
       <div>
+      <Header></Header>
       <Nav></Nav>
 
       </div>
