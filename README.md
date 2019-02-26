@@ -1,3 +1,6 @@
+# slider-test
+Testing an animated web slider for my personal websites navigation
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
