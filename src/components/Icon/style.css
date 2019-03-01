@@ -1,0 +1,10 @@
+.icon p {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    background-color: white;
+}
+
+.icon img {
+    padding: 10px;
+}
