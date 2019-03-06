@@ -9,6 +9,7 @@ function Header() {
   return(
     <header>
       <section>
+        <h3 className="logo">kajmerryman@gmail.com</h3>
         <a href="https://www.linkedin.com/in/kyle-merryman/" target="_blank">
           <img src={linkedin} alt="LinkedIn" height="24px" width="24px"/>
         </a>

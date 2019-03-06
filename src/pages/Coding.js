@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+// import { Alert, AppRegistry, Button, StyleSheet, View } from 'react-native';
+// import {Alert} from 'react-native';
 //PROJECT DATA
 import data from "../data.json";
 //COMPONENTS
@@ -11,11 +13,11 @@ import MusicIco from "../assets/icons/projects/casioBeats.svg";
 import VolumeIco from "../assets/icons/projects/text2speech.svg";
 import ClockIco from "../assets/icons/projects/analog.svg";
 import GlobeIco from "../assets/icons/projects/activ8.svg";
-// import BrushIco from "../assets/icons/projects/canvas.svg";
-// import StarIco from "../assets/icons/projects/clickyTNG.svg";
-// import CloudIco from "../assets/icons/projects/raincheck.svg";
-// import CameraIco from "../assets/icons/projects/webcam.svg";
-// import WhackIco from "../assets/icons/projects/whack.svg";
+import BrushIco from "../assets/icons/projects/canvas.svg";
+import StarIco from "../assets/icons/projects/clickyTNG.svg";
+import CloudIco from "../assets/icons/projects/raincheck.svg";
+import CameraIco from "../assets/icons/projects/webcam.svg";
+import WhackIco from "../assets/icons/projects/whack.svg";
 /*-----ICONS-----*/
 
  
@@ -48,18 +50,18 @@ class Coding extends Component {
 
     render() {
         return (
-            <div>
-                <h1></h1>
+            <div> 
+                <h1>My Portfolio</h1>             
                  <Container>
                     <Icon svg={MusicIco} handleClick={this.handleClick} indx="0"></Icon>
                     <Icon svg={VolumeIco} handleClick={this.handleClick} indx="1"></Icon>
                     <Icon svg={ClockIco} handleClick={this.handleClick} indx="2"></Icon>
                     <Icon svg={GlobeIco} handleClick={this.handleClick} indx="3"></Icon>  
-                    {/* <Icon svg={BrushIco} handleClick={this.handleClick} indx="4"></Icon>   */}
-                    {/* <Icon svg={StarIco} handleClick={this.handleClick} indx="5"></Icon>   */}
-                    {/* <Icon svg={CloudIco} handleClick={this.handleClick} indx="6"></Icon>   */}
-                    {/* <Icon svg={CameraIco} handleClick={this.handleClick} indx="7"></Icon>   */}
-                    {/* <Icon svg={WhackIco} handleClick={this.handleClick} indx="8"></Icon>                       */}
+                    <Icon svg={BrushIco} handleClick={this.handleClick} indx="4"></Icon>  
+                    <Icon svg={StarIco} handleClick={this.handleClick} indx="5"></Icon>  
+                    <Icon svg={CloudIco} handleClick={this.handleClick} indx="6"></Icon>  
+                    <Icon svg={CameraIco} handleClick={this.handleClick} indx="7"></Icon>  
+                    <Icon svg={WhackIco} handleClick={this.handleClick} indx="8"></Icon>                      
                 </Container>
 
                 <Modal show={this.state.show} handleClose={this.hideModal} >
