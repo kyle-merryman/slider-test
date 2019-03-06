@@ -16,5 +16,41 @@
         "description": "A real-time analog clock, rendered digitally (but still analog!).",
         "app": "https://kyle-merryman.github.io/clock-analog/",
         "code": "https://github.com/kyle-merryman/clock-analog"
+    },
+    {
+        "title": "Activ8",
+        "description": "Aids the user in taking action. Sign a petition, go to an event, or donate to a charity related to your passion.",
+        "app": "https://activ8125125.herokuapp.com/",
+        "code": "https://github.com/kyle-merryman/Activ8"
+    },
+    {
+        "title": "Canvas",
+        "description": "An MSPaint-inspired interactive canvas for multi-colored drawing.",
+        "app": "https://kyle-merryman.github.io/canvas/",
+        "code": "https://github.com/kyle-merryman/canvas"
+    },
+    {
+        "title": "Clicky: The Next Generation",
+        "description": "The anti-matching game. Click as many non-duplicate Star Trek characters as possible.",
+        "app": "https://salty-badlands-44401.herokuapp.com/",
+        "code": "https://github.com/kyle-merryman/clicky-game"
+    },
+    {
+        "title": "Fore!Cast",
+        "description": "User can create events, check the weather, and move the event to a day with better weather.",
+        "app": "https://lindsayt13.github.io/Project_1/",
+        "code": "https://github.com/kyle-merryman/Project_1"
+    },
+    {
+        "title": "Webcam",
+        "description": "A video photobooth that lets the user take selfies.",
+        "app": "https://kyle-merryman.github.io/webcam/",
+        "code": "https://github.com/kyle-merryman/webcam"
+    },
+    {
+        "title": "Whack!",
+        "description": "Hit as many gophers as possible before time runs out!",
+        "app": "https://kyle-merryman.github.io/whack/",
+        "code": "https://github.com/kyle-merryman/whack"
     }
 ]
